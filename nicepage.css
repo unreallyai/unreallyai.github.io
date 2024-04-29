@@ -21826,6 +21826,7 @@ a.pswp__share--download:hover {
 .u-custom-list {
   list-style-type: none;
   padding-left: 0;
+  padding-bottom: 20px;
 }
 .u-custom-list li {
   position: relative;
