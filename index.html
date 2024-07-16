@@ -76,7 +76,7 @@
         <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
             <div class="u-layout-row">
-              <div class="u-size-30 u-size-60-md">
+              <div class="u-size-27 u-size-60-md">
                 <div class="u-layout-col">
                   <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-20 u-image-1" src="" data-image-width="5999" data-image-height="3000">
                     <div class="u-container-layout u-container-layout-1" src=""></div>
@@ -86,26 +86,62 @@
                   </div>
                 </div>
               </div>
-              <div class="u-size-30 u-size-60-md">
+              <div class="u-size-33 u-size-60-md">
                 <div class="u-layout-row">
                   <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-60 u-layout-cell-3">
                     <div class="u-container-layout u-container-layout-3">
-                      <h2 class="u-align-left u-text u-text-default-lg u-text-default-xl u-text-1">Maximise<br>Real Estate Reach
+                      <h2 class="u-align-left u-text u-text-default-lg u-text-default-xl u-text-1">Revolutionise<br>Real Estate Marketing
                       </h2>
                       <ul class="u-align-left u-custom-list u-text u-text-2">
                         <li>
                           <div class="u-list-icon u-text-palette-1-base">
                             <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">►</div>
                           </div>
-                          <span style="font-size: 1.375rem;"> Level up your </span><span class="u-text-palette-1-base" style="font-weight: 500;">Social Media </span>game</span>
+                          AI chatbot for marketing and insights
                         </li>
                         <li>
                           <div class="u-list-icon u-text-palette-1-base">
                             <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content">►</div>
                           </div>
-                          <span style="font-size: 1.375rem;"> Elevate engagement with </span><span class="u-text-palette-1-base" style="font-weight: 500;">AI-generated </span>models</span>
+                          AI generated humans to boost engagement
                         </li>
                       </ul>
+                      
+                      <!-- floating chatbot start -->
+                      <div id="chatbot-container">
+                      <div id="chatbot-button">
+                        <img src="images/chatbot-icon.png" alt="Chatbot Icon">
+                      </div>
+                      <div id="chatbot-overlay">
+                        <div id="chatbot-window">
+                          <div id="chatbot-header">
+                              <h3 class="u-text u-align-right">Chat with us!</h3>
+                            <button id="chatbot-close">&times;</button>
+                          </div>
+                          <iframe src="http://spaceprotocol04:7860/"  width="100%" height="100%" frameborder="0" class="minimized"></iframe>
+                          <div id="chatbot-content">
+                            <!-- Add your chatbot interface code here -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                          var chatbotButton = document.getElementById('chatbot-button');
+                          var chatbotOverlay = document.getElementById('chatbot-overlay');
+                          var chatbotClose = document.getElementById('chatbot-close');
+
+                          chatbotButton.addEventListener('click', function() {
+                            chatbotOverlay.style.display = 'block';
+                          });
+
+                          chatbotClose.addEventListener('click', function() {
+                            chatbotOverlay.style.display = 'none';
+                          });
+                        });
+                      </script>
+                      <!-- floating chatbot end -->
+
                       <a aria-label="Chat on WhatsApp" href="https://wa.me/61415567602/?text=Hi,%20I%27m%20interested%20to%20know%20more%20about%20your%20product" class="u-image u-align-center u-border-none u-radius-50 u-text-active-white u-text-hover-white" target="_blank"> <img alt="Chat on WhatsApp" src="images/WhatsAppButtonGreenLarge.svg"/></a>
                       <!--<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                       <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
@@ -119,15 +155,7 @@
         </div>
       </div>
     </section>
-    <section class="u-align-center u-clearfix u-palette-1-base u-section-2" id="carousel_a257">
-      
-      
-      
-      
-      
-      
-      
-      
+    <!--<section class="u-align-center u-clearfix u-palette-1-base u-section-2" id="carousel_a257">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
@@ -141,16 +169,13 @@
               <div class="u-container-style u-layout-cell u-size-15 u-layout-cell-2">
                 <div class="u-container-layout u-valign-middle-xs u-container-layout-2">
                   <a aria-label="Chat on WhatsApp" href="https://wa.me/61415567602?text=Hi,%20I%27m%20interested%20to%20know%20more%20about%20your%20product" class="u-image u-align-center u-border-none u-radius-50 u-text-active-white u-text-hover-white" target="_blank"> <img alt="Chat on WhatsApp" src="images/WhatsAppButtonWhiteLarge.svg"/></a>
-                  <!--<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                  <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/unreally/15min'});return false;" class="u-border-2 u-border-hover-palette-1-base u-border-palette-1-base u-btn u-btn-round u-button-style u-hover-black u-radius u-white u-btn-1">Schedule a call</a>-->
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
     <section class="u-align-center u-clearfix u-section-3" id="sec-7c81">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-align-center u-text u-text-default u-text-1">Services</h2>
@@ -163,28 +188,56 @@
               <div class="u-container-layout u-similar-container u-container-layout-1">
                 <div class="u-align-center u-border-2 u-border-palette-1-base u-border-radius-50 u-container-style u-expanded-width u-group u-palette-1-base u-shape-round u-group-1">
                   <div class="u-container-layout u-container-layout-2">
-                    <h2 class="u-align-center u-custom-font u-text u-text-font u-text-3">Social Media<br>Management
+                    <h2 class="u-align-center u-custom-font u-text u-text-font u-text-3">AI-Powered<br>Chatbot Assistant
                     </h2>
                   </div>
                 </div>
-                <p class="u-text u-text-black u-text-default u-text-4 u-align-left"> Optimise your social media presence with tailored profiles and expert management.</p>
+                <ul class="u-align-left u-custom-list u-text u-text-2">
+                    <li>
+                      <div class="u-list-icon u-text-palette-1-base">
+                        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" style="padding-left: 5px">►</div>
+                      </div>
+                      <span style="font-size: 1.375rem;"> Performs in-depth market analysis to provide data-driven insights.</span>
+                    </li>
+                    <li>
+                      <div class="u-list-icon u-text-palette-1-base">
+                        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" style="padding-left: 5px">►</div>
+                      </div>
+                      <span style="font-size: 1.375rem;"> Generates personalized marketing strategies and content ideas.</span>
+                    </li>
+                </ul>
               </div>
             </div>
             <div class="u-align-center u-container-style u-grey-10 u-list-item u-repeater-item u-list-item-2">
               <div class="u-container-layout u-similar-container u-container-layout-3">
                 <div class="u-align-center u-border-2 u-border-palette-1-base u-border-radius-50 u-container-style u-expanded-width u-group u-palette-1-base u-shape-round u-group-2">
-                  <div class="u-container-layout u-container-layout-4">
-                    <h2 class="u-align-center u-custom-font u-text u-text-default u-text-font u-text-5">Content<br>Creation
+                  <div class="u-container-layout u-container-layout-2">
+                    <h2 class="u-align-center u-custom-font u-text u-text-font u-text-3">AI-Generated<br>Property Reels
                     </h2>
                   </div>
                 </div>
-                <p class="u-text u-text-black u-text-default u-text-6"> Create dynamic reels featuring diverse AI-generated models for boosting user engagement.</p>
+                <ul class="u-align-left u-custom-list u-text u-text-2">
+                    <li>
+                      <div class="u-list-icon u-text-palette-1-base">
+                        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" style="padding-left: 5px">►</div>
+                      </div>
+                      <span style="font-size: 1.375rem;"> Enhances listing photos with AI-generated humans.</span>
+                    </li>
+                    <li>
+                      <div class="u-list-icon u-text-palette-1-base">
+                        <div xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" style="padding-left: 5px">►</div>
+                      </div>
+                      <span style="font-size: 1.375rem;"> Creates engaging video reels to capture attention on social media.</span>
+                    </li>
+                </ul>
+                <p class="u-text u-text-black u-text-default u-text-6 u-align-left"></p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <section class="u-align-center u-clearfix u-palette-5-light-1 u-section-4" id="carousel_cecf">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-align-center u-text u-text-1">Portfolio</h2>
@@ -229,7 +282,8 @@
             </div>
           </div>
         </div>
-        <h4 class="u-align-center u-text u-text-palette-1-base u-text-2"> We believe the most beautiful spaces are those with soul. </h4>
+        <p></p>
+        <!--<h4 class="u-align-center u-text u-text-palette-1-base u-text-2"> We believe the most beautiful spaces are those with soul. </h4>-->
       </div>
     </section>
     
@@ -238,16 +292,4 @@
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-a2a9"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">Copyright 2024. All rights reserved. </p>
       </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-design" target="_blank">
-        <span>Best Website Design</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="https://nicepage.best" target="_blank">
-        <span>Website Builder</span>
-      </a>. 
-    </section>
-  
 </body></html>
